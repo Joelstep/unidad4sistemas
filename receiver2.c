@@ -60,5 +60,12 @@ int main(int argc, char *argv[])
     mq_close(mq);
     mq_unlink("/mq0");
     exit(EXIT_SUCCESS);
+
+
+    fgets(cadena, tamaño, archivo)  para guardar lo que leyo de un archiuo
+
+    fputs(cadena, archivo) para escribir lo que se guardo en un archivo
+    
+    fclose(archivo)
 }
 */
